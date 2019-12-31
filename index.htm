@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Business Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--------------navbar------------------>
+    <section id = "nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="logocl.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#top">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team" tabindex="-1" aria-disabled="true">OUR TEAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#promo">PRICE PLANS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACTS</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <!--slider-->
+    <div id = "slider" id="top">
+        <div id="HeaderSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#HeaderSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#HeaderSlider" data-slide-to="1"></li>
+              <li data-target="#HeaderSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img5.jpeg" class="d-block w-100" alt="...">
+                <div class ="carousel-caption">
+                  <h5>How To Make A Website</h5>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img src="img3.jpeg" class="d-block w-100" alt="...">
+                <div class ="carousel-caption">
+                    <h5>Create A Responsive Website</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img4.jpeg" class="d-block w-100" alt="...">
+                <div class ="carousel-caption">
+                    <h5>Business Website Design</h5>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#HeaderSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#HeaderSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+      </section>
+      <!------------------about---------------------->
+       <!--About-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About us</h2>
+                    <div class="about-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit? 
+                        Deserunt voluptas saepe obcaecati doloribus voluptatibus deleniti soluta omnis, 
+                        quam vero praesentium quod, quibusdam reiciendis culpa ratione 
+                        nobis! Fugit, enim?
+                    </div>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <p>Adobe Photoshop</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                    <p>UI Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                    <p>WordPress</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                    <p>Graphics Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----services----->
+    <section id="services">
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="row services">
+              <div class="col-md-3 text-center">
+                <div class="icon">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </div>
+                  <h3>Web Development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  
+                    doloribus vel dicta consectetur dignissimos veniam quo .</p>
+                </div>
+                <div class="col-md-3 text-center">
+                  <div class="icon">
+                    <i class="fa fa-tablet" aria-hidden="true"></i>
+                  </div>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  
+                      doloribus vel dicta consectetur dignissimos veniam quo .</p>
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                      <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    </div>
+                      <h3>Digital Marketing</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  
+                        doloribus vel dicta consectetur dignissimos veniam quo .</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                      <div class="icon">
+                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                      </div>
+                        <h3>Graphics Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  
+                          doloribus vel dicta consectetur dignissimos veniam quo .</p>
+                      </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--------Team Members----------->
+    <section id="team">
+      <div class="container">
+        <h1>Our Team</h1>
+        <div class="row">
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="clever2.jpeg" alt="" class="img-responsive">
+              <ul>
+                <a href=""><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+                <a href=""><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+                <a href=""><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+              </ul>
+            </div>
+            <h2>Clever Eziogor</h2>
+            <h3>Founder/CEO</h3>
+            <p>Lorem ipsum dolor sit amet consec</p>
+            </div>
+            <div class="col-md-3 profile-pic text-center">
+              <div class="img-box">
+                <img src="clever2.jpeg" alt="" class="img-responsive">
+                <ul>
+                  <a href=""><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+                  <a href=""><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+                  <a href=""><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+                </ul>
+              </div>
+              <h2>Hilton Eziogor</h2>
+              <h3>Digital Mkt Expert</h3>
+              <p>Lorem ipsum dolor sit amet consec</p>
+              </div>
+              <div class="col-md-3 profile-pic text-center">
+                <div class="img-box">
+                  <img src="clever2.jpeg" alt="" class="img-responsive">
+                  <ul>
+                    <a href=""><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+                    <a href=""><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+                    <a href=""><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+                  </ul>
+                </div>
+                <h2>Emmanuel Eziogor</h2>
+                <h3>App Developer Expert</h3>
+                <p>Lorem ipsum dolor sit amet consec</p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+              <div class="img-box">
+                    <img src="clever2.jpeg" alt="" class="img-responsive">
+                   <ul>
+                    <a href=""><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+                    <a href=""><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+                    <a href=""><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+                   </ul>
+              </div>
+                <h2>Lucas Eziogor</h2>
+                <h3>Web Developer Expert</h3>
+                <p>Lorem ipsum dolor sit amet consec</p>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!----------Price plans------------->
+    <section id="promo">
+      <div class="container">
+        <p class="para">Get Free Domain Name and Web Hosting</p>
+        <a href="#" class="btn btn-primary">Contact Us</a>
+      </div>
+    </section>
+    <!---------------price plans--------------------->
+    <section id="price">
+      <div class="container">
+        <h1>Price Plans</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Free</h2>
+                <p>$0<span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                  <li><i class="fa fa-times-circle"></i>SSL certificate</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Join Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Start Up</h2>
+                <p>$10<span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>30GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                  <li><i class="fa fa-times-circle"></i>SSL certificate</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Businesses</h2>
+                <p>$20<span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>50GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                  <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+                  <li><i class="fa fa-times-circle"></i>SSL certificate</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Advanced</h2>
+                <p>$30<span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>100GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                  <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+                  <li><i class="fa fa-check-circle"></i>SSL certificate</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-------------testimonials------------------>
+   <section id="testimonials">
+    <div class="container">
+      <h1>testimonials</h1>
+      <p class="text-center">Subscribe Easy Tutorials Youtube Channel to watch more videos</p>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="profile">
+            <img src="clever2.jpeg" class="user">
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Eaque porro veniam alias voluptas atque nisi commodi recusandae consequatur quos, 
+              necessitatibus maiores vero accusantium illum nemo 
+              sequi ipsam mollitia corporis aperiam.</blockquote>
+              <h3>Clever E <span>Co-Founder at XYZ</span></h3>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="profile">
+          <img src="clever2.jpeg" class="user">
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eaque porro veniam alias voluptas atque nisi commodi recusandae consequatur quos, 
+            necessitatibus maiores vero accusantium illum nemo 
+            sequi ipsam mollitia corporis aperiam.</blockquote>
+            <h3>Emmanuel E <span>Co-Founder at XYZ</span></h3>
+      </div>
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="profile">
+        <img src="clever2.jpeg" class="user">
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Eaque porro veniam alias voluptas atque nisi commodi recusandae consequatur quos, 
+          necessitatibus maiores vero accusantium illum nemo 
+          sequi ipsam mollitia corporis aperiam.</blockquote>
+          <h3>Hilton E <span>Co-Founder at XYZ</span></h3>
+    </div>
+  </div>
+    </div>
+   </section>
+   <!---------get in touch------------------->
+   <section id="contact">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <div class="row">
+        <div class="col-md-6">
+          </form>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="your name">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" placeholder="phone no">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Id">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+          </form>
+        </div>
+        <div class="col-md-6 contact-info">
+          <div class="follow"><b>Address:</b><i class="fa fa-map-maker" aria-hidden="true"></i>XYZ Road, Lagos, NIG</div>
+          <div class="follow"><b>Phone:</b><i class="fa fa-phone" aria-hidden="true"></i>+234 08103612164</div>
+          <div class="follow"><b>Email:</b><i class="fa fa-envelope-o" aria-hidden="true"></i>example@Website.com</div>
+          <div class="follow"><label><b>Get Social:</b></label>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-----------------footer---------------------->
+   <section id="footer">
+    <div class="container text-center">
+     <p>Made With <i class="fa fa-heart-o"></i>by clever-code</p>
+    </div>
+   </section>
+</body>
+</html>
